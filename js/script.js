@@ -37,7 +37,7 @@ console.log("arrayRandomNumbers", arrayRandomNumbers);
 
 // IMPOSTO UN TIMER DOPO IL QUALE SI ATTIVERA' UNA FUNZIONE
 var arrayUserNumbers = [];
-setTimeout(timer, 1000);
+setTimeout(timer, 30000);
 function timer() {
     // GENERO DEI PROMPT CON CUI L'UTENTE PUO' INSERIRE DEI NUMERI
     // DA CONFRONTARE CON I NUMERI CASUALI, NON CI SONO DOPPIONI
